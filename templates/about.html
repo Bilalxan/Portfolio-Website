@@ -1,0 +1,37 @@
+{% include "header.html" %}
+
+
+<div class="cardd">
+    <img src="static/new one.png" alt="" class="img-fluid my-image">
+    <div class="box">
+        <h3 class="mb-4 text-truncate">
+            <a href="#!" class="text-inherit ">Web Developer</a>
+        </h3>
+        <span>Full Name: Shahzodbek Jurakulov</span>
+        <br/>
+        <span>I like to be called Shahzod</span>
+        <hr/>
+        <span>Strict Rules To Follow: </span>
+        <ul style="width: max-content; margin-left: 9rem; text-align: left">
+            <li>Diet</li>
+            <li>Modesty</li>
+            <li>Prayer</li>
+            <li>Washing</li>
+            <li>Treatment</li>
+        </ul>
+        <div class="mb-4">
+            <div class="mb-3 lh-1">
+                <hr/>
+                <span>Available on: </span>
+            </div>
+            <div class="lh-1" style="text-align: center;">
+                <span>Mon: 8 AM - 6 PM</span><br>
+                <span>Wed: 8 AM - 6 PM</span><br>
+                <span>Sat: 8 AM - 6 PM</span>
+            </div>
+        </div>
+        <a href="{{ url_for('contact') }}" class="btn btn-light-primary text-primary">Go to Contact</a>
+    </div>
+</div>
+
+{% include "footer.html" %}

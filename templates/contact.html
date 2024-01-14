@@ -1,0 +1,17 @@
+{% include "header.html" %}
+{% from "bootstrap5/form.html" import render_form %}
+
+<h1 class="form_title">Thanks for taking the time to reach out. <br/>
+    How can I help you today?</h1>
+<div class="container position-relative px-4 px-lg-5 form">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            <div class="page-heading">
+                {{ render_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% include "footer.html" %}

@@ -1,0 +1,91 @@
+.nav-link {
+    font-size: x-large;
+    border-radius: 30px;
+    border: 1px solid turquoise;
+    color: lightgray;
+}
+
+
+.nav-link:hover {
+    /*text-decoration: underline;*/
+    border-bottom: 2px dotted orange;
+}
+
+.ms-auto {
+    padding-right: 2rem;
+    gap: 5rem;
+}
+
+.descriptive {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-size: x-large;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    /*word-spacing: 1rem;*/
+}
+
+
+.subtitle {
+    padding: 0 10rem;
+}
+.title {
+    font-size: xxx-large;
+}
+
+.container-lg {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-left: 15rem;
+}
+
+.form {
+    margin-top: 2rem;
+}
+
+.form_title {
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.iconi {
+    width: 3.5rem;
+    border-radius: 40px;
+    margin-left: 20px;
+    cursor: grab;
+}
+
+.my-image {
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+.text-inherit {
+    text-decoration: none;
+}
+
+.cardd {
+    position: relative;
+    left: 35%;
+    text-align: center;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5rem;
+}
+
+.un-list {
+    padding-right: 50px;
+}
+
+.margin-top {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
